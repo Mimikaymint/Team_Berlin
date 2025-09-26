@@ -2,78 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines
 
 
@@ -125,42 +53,12 @@ Can you predict whether people got H1N1 and seasonal flu vaccines using informat
 
 
 
-beginner
-
-      practice
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 Problem description
 
 
-
-
-
-
-About
 
 
 
@@ -179,67 +77,6 @@ seasonal_vaccine
 
 
 Each row in the dataset represents one person who responded to the National 2009 H1N1 Flu Survey.
-
-
-
-
-
-
-
-
-Labels
-
-
-Labels
-
-
-
-
-
-
-Features
-
-
-List of features
-
-
-Example of features
-
-
-
-
-
-
-
-
-
-
-Performance metric
-
-
-Example
-
-
-
-
-
-
-Submission Format
-
-
-Format example
-
-
-
-
-
-
-
-
-
-
-Labels
-
 
 
 
