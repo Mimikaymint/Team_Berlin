@@ -15,20 +15,17 @@ Each row in the dataset represents one person who responded to the National 2009
 
 There are two target variables:
 
-- h1n1_vaccine: Whether respondent received H1N1 flu vaccine.
+- `h1n1_vaccine`: Whether respondent received H1N1 flu vaccine.
 
-- seasonal_vaccine: Whether respondent received seasonal flu vaccine.
+- `seasonal_vaccine`: Whether respondent received seasonal flu vaccine.
 
 - Both are binary variables: 0 = No; 1 = Yes. Some respondents didn't get either vaccine, others got only one, and some got both. This is formulated as a multilabel (and not multiclass) problem.
 
 
-### The features in this dataset
+### Features in this dataset
 
-You are provided a dataset with 36 columns. The first column 
-respondent_id
- is a unique and random identifier. The remaining 35 features are described below.
-
-- For all binary variables: 0 = No; 1 = Yes.
+You are provided a dataset with 36 columns. The first column `respondent_id`is a unique and random identifier. The remaining 35 features are described below.
+For all binary variables: 0 = No; 1 = Yes.
 
 - h1n1_concern : Level of concern about the H1N1 flu.
   - 0 = Not at all concerned; 
@@ -68,46 +65,46 @@ respondent_id
 - health_insurance : Has health insurance. (binary)
 
 - opinion_h1n1_vacc_effective : Respondent's opinion about H1N1 vaccine effectiveness.
- - 1 = Not at all effective; 
- - 2 = Not very effective; 
- - 3 = Don't know; 
- - 4 = Somewhat effective; 
- - 5 = Very effective.
+  - 1 = Not at all effective; 
+  - 2 = Not very effective; 
+  - 3 = Don't know; 
+  - 4 = Somewhat effective; 
+  - 5 = Very effective.
 
 - opinion_h1n1_risk : Respondent's opinion about risk of getting sick with H1N1 flu without vaccine.
- - 1 = Very Low; 
- - 2 = Somewhat low; 
- - 3 = Don't know; 
- - 4 = Somewhat high; 
- - 5 = Very high.
+  - 1 = Very Low; 
+  - 2 = Somewhat low; 
+  - 3 = Don't know; 
+  - 4 = Somewhat high; 
+  - 5 = Very high.
 
 - opinion_h1n1_sick_from_vacc : Respondent's worry of getting sick from taking H1N1 vaccine.
- - 1 = Not at all worried; 
- - 2 = Not very worried; 
- - 3 = Don't know; 
- - 4 = Somewhat worried; 
- - 5 = Very worried.
+  - 1 = Not at all worried; 
+  - 2 = Not very worried; 
+  - 3 = Don't know; 
+  - 4 = Somewhat worried; 
+  - 5 = Very worried.
 
 - opinion_seas_vacc_effective : Respondent's opinion about seasonal flu vaccine effectiveness.
- - 1 = Not at all effective; 
- - 2 = Not very effective; 
- - 3 = Don't know; 
- - 4 = Somewhat effective; 
- - 5 = Very effective.
+  - 1 = Not at all effective; 
+  - 2 = Not very effective; 
+  - 3 = Don't know; 
+  - 4 = Somewhat effective; 
+  - 5 = Very effective.
 
 - opinion_seas_risk : Respondent's opinion about risk of getting sick with seasonal flu without vaccine.
- - 1 = Very Low; 
- - 2 = Somewhat low; 
- - 3 = Don't know; 
- - 4 = Somewhat high; 
- - 5 = Very high.
+  - 1 = Very Low; 
+  - 2 = Somewhat low; 
+  - 3 = Don't know; 
+  - 4 = Somewhat high; 
+  - 5 = Very high.
 
 - opinion_seas_sick_from_vacc : Respondent's worry of getting sick from taking seasonal flu vaccine.
- - 1 = Not at all worried; 
- - 2 = Not very worried; 
- - 3 = Don't know; 
- - 4 = Somewhat worried; 
- - 5 = Very worried.
+  - 1 = Not at all worried; 
+  - 2 = Not very worried; 
+  - 3 = Don't know; 
+  - 4 = Somewhat worried; 
+  - 5 = Very worried.
 
 - age_group : Age group of respondent.
 
