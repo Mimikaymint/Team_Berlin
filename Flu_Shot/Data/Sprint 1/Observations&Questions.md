@@ -1,18 +1,33 @@
 # Ticket 1.1.4: Initial Observations & Questions
 
 ## 1. Key Observations
+
+### Dataset Structure
+
 - The dataset contains multiple CSV files: 
   - `training_set_features.csv`
   - `training_set_labels.csv`
   - `test_set_features.csv`
   - `submission_format.csv`
+
+- For binary variables 0 = No, 1 = Yes 
+- The Dimensions of dataset include 26707 rows and 38 columns
+- Target Variables : `h1n1_vaccine , seasonal_vaccine`.
 - Dataset profile summary is available in `Team Berlin/Misc` folder.
 - Features include both numerical(labelled data) and categorical variables.
-- There are missing values in some columns that will need handling.
-- The missing values in columns(employmemt_industry, occupation and health_insurance) are  more than 50% and will be investigated further before deletion.
-- The data structure suggests a supervised learning task (predicting labels from features).
 - Notebook organization: all files are currently located in `Team Berlin folder` folder.
+
+### Missing Values
+
+- There are missing values in some columns that will need handling.
+- The missing values in columns`(employmemt_industry, occupation and health_insurance)` are  more than 50% and will be investigated further before deletion.
+- The data structure suggests a supervised learning task (predicting labels from features).
+
+### Target Variables 
+
 - For target variables, seasonal vaccines were taken more than the h1n1 vaccines.
+- H1N1 vaccine (21.2% = Vaccine, 78.8% = No vaccine).
+- Seasonal vaccine (46.6% = Vaccine, 53.4% = No vaccine)
 
 ## 2. Potential Challenges
 - Missing data may require imputation or careful preprocessing.
