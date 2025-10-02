@@ -1442,38 +1442,6 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Markdown file created with outputs only!\n"
-     ]
-    }
-   ],
-   "source": [
-    "from nbconvert import MarkdownExporter\n",
-    "import nbformat\n",
-    "\n",
-    "with open(\"Flu_Shot.ipynb\") as f:\n",
-    "    nb = nbformat.read(f, as_version=4)\n",
-    "\n",
-    "exporter = MarkdownExporter()\n",
-    "exporter.exclude_input = True  \n",
-    "exporter.exclude_output_prompt = True  \n",
-    "\n",
-    "body, resources = exporter.from_notebook_node(nb)\n",
-    "\n",
-    "with open(\"Flu_Shot_outputs.md\", \"w\") as f:\n",
-    "    f.write(body)\n",
-    "\n",
-    "print(\"Markdown file created with outputs only!\")\n"
-   ]
-  },
-  {
-   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
